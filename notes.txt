@@ -1,0 +1,57 @@
+Commit PHP
+
+Modifiaction code avec endif et endforeach pour une meilleure compréhension,
+Supression du "Bonjour, x bienvenue",
+Ajout formulaire de contact fonctionnel sur page détails SI connecté en tant qu'internaute,
+Modification de la bdd: beacoup de biens maintenant majoritairement à Amiens mais aussi à Paris, Bruxelles et Londres, 
+Modification employes et internaute pour aide au rapport de stage,
+
+employes login = "PRENOM" + "1ere Lettre du nom" + @hotmail.com    exemple: vincentd@hotmail.com
+employes mdp = "PRENOM" + "123" exemple: vincent123
+
+internaute login = wazaa@hotmail.com
+internaute mdp = wazaa123
+
+
+
+Commit PHP
+
+Ajout d'une vue 'DetailsContactView',
+Modification page contact partie admin : maintenant deux parties, une avec formulaire à traiter, une autre avec les formulaires déjà traité,
+Ajout de la possibilité de traiter un formulaire de contact avec message de confirmation,
+Correction bugs,
+
+
+Commit PHP
+
+Correction bugs barre recherche,
+Correction bugs envoi commentaire,
+Maintenant lorsqu'un formulaire de contact est envoyé via une annonce spécifique c'est précisé dans le message,
+Barre de recherche maintenant disponible sur les pages locations, ventes et résultat de la recherche,
+Indentation des controllers + suppression code inutile,
+
+
+Commit PHP
+
+Pagination ajouté pour la page regroupant tous les commentaires,
+Ajout de bouton tri pour la page avec tous les commentaires(pagination en cours pour ces pages triés),
+
+
+Remarque : table waz_commentaire présence d'un in_id 0
+
+
+
+Commit PHP
+
+Détails du compte côté internaute maintenant envoyé par le controller membre et non plus par le controller authentification,
+Possibilité de modifier certains détails du compte pour employés et internautes,
+Possibilité de voir les détails d'un membre puis de le supprimer lui et toutes les données associés sur la page liste des membres partie admin,
+
+
+
+
+
+
+
+
+
